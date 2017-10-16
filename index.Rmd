@@ -698,7 +698,7 @@ Your browser does not support the video tag.
 - Link to data in published papers for new visualization & analysis
 - See everyone's procedures, displays, analyses for myself
 - Search for data by task, participant characteristics & download for visualization & analysis
-- Understand how the pieces fit together
+- Understand how all the pieces fit together...
 
 ---
 
