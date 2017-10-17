@@ -23,11 +23,13 @@ output:
 I thank NSF, NICHD, SRCD, and the Sloan Foundation for support.
 </div>
 
-## Themes
+## Talk overview
 
-- A range of research questions
-- Common themes 
-- Envisioning the future
+- Project status report
+    - The development of optic flow processing
+    - *P*lay & *L*earning *A*cross a *Year* (PLAY) project
+    - The *P*roximal *E*motional *E*nvironment *P*roject (PEEP)
+- Toward an open, transparent, robust, and integrative developmental science
 
 # The development of optic flow processing
 
@@ -195,12 +197,6 @@ These parse the space of different types of optic flow. You can think of them as
 [[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)</div>
 </div>
 
-<!-- ## 1F1 Results Summary -->
-
-<!-- - Highly responsive channels over right lateral cortex -->
-<!-- - Radial & rotation >> translation -->
-<!-- - Amplitude and phase differences -->
-
 ## [3F1 Channel-Wise Results](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/channel-wise-effects-1.png) {.smaller}
 
 <div class="centered">
@@ -225,19 +221,13 @@ These parse the space of different types of optic flow. You can think of them as
 [[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-<!-- ## 3F1 Results Summary -->
-
-<!-- - Highly responsive channels over medial cortex -->
-<!-- - Speed, but not pattern tuned, 2 < 4 = 8 deg/s -->
-<!-- - Amplitude and phase differences -->
-
 ## Results Summary
 
 - Anatomical separation of responses
-    + vs. pattern (lateral)
-    + speed (medial)
+    + vs. pattern (lateral, 1F1)
+    + speed (medial, 3F1)
 - Radial & rotation != translation
-- Speed tuning
+- Speed tuning (slow < med & fast)
 
 ## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png) {.smaller}
 
@@ -501,10 +491,19 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 - Infants commonly experience fast, linear optic flows
 - Brain and behavioral responses to optic flow develop throughout childhood
     + Still immature in 5-8 year-olds
+- Statistics of natural experience informative
+
+## Some next steps
+
+- Individual differences in flow sensitivity
+- Brain responses to flow 'in the wild'
+- Comparing brain responses to behavioral sensitivity
+- Simulating the effects of development on visual experience
+- Automating pipelines for automated analysis of 1st person videos
 
 # An hour in the life...
 
-## **P**lay & **L**earning **A**cross a **Year** project
+## *P*lay & *L*earning *A*cross a *Year* project
 
 - Play is the central context and activity of early development
 - But what do parents and infants *actually do* when they 'play'?
@@ -512,7 +511,7 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 ---
 
 <div class="centered">
-<video width="600" height="400" controls>
+<video width="750" height="500" controls>
   <source src="https://nyu.databrary.org/slot/11652/307774,376273/asset/47075/download?inline=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -521,25 +520,26 @@ Your browser does not support the video tag.
 ---
 
 <div class="centered">
-<video width="600" height="400" controls>
+<video width="750" height="500" controls>
   <source src="https://nyu.databrary.org/slot/14167/381504,4603862/asset/59930/download?inline=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - n=900 infant/mother dyads; 300 @ 12-, 18-, 24-months
 - 30 dyads from 30 sites across the US
 - 1 hr natural activity + 3 min solitary toy play + 2 min dyadic toy play + video tour of home
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - Videos coded for
     - Emotional expression
     - Object interaction
     - Physical activity & locomotion
     - Language
+- Enhancements to [Datavyu](http://datavyu.org) for transcription, CHAT compatibility, Windows support
 
 ---
 
@@ -553,7 +553,7 @@ Your browser does not support the video tag.
 <img src="https://github.com/PLAY-behaviorome/video-coding/blob/master/video-code-file-export-cleaning_files/figure-markdown_github/voc.type-1.png?raw=true" height=500px>
 </div>
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - Demographics + parent-report questionnaires about health, family, temperament
 - Ambient sound levels
@@ -564,7 +564,7 @@ Your browser does not support the video tag.
 <img src="https://github.com/PLAY-behaviorome/ambient-sound/blob/master/ambient-sound-ny-pilot_files/figure-markdown_github/plots-by-sub-db.avg-1.png?raw=true" height=500px>
 </div>
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - Census block group geocoding
 
@@ -580,7 +580,7 @@ Your browser does not support the video tag.
 <img src="https://github.com/PLAY-behaviorome/site-demographics/blob/master/img/black-hispanic-region-1.png?raw=true" height=500px>
 </div>
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - "Big data" developmental science
 
@@ -592,7 +592,7 @@ Your browser does not support the video tag.
 </a>
 </div>
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - Data shared on Databrary
 
@@ -604,7 +604,7 @@ Your browser does not support the video tag.
 </a>
 </div>
 
-## *P*lay & *L*earning *A*cross a *Year* project
+## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - Video as data and documentation
 
@@ -626,11 +626,16 @@ Your browser does not support the video tag.
 
 ## What questions would *you* ask about these data?
 
-# The Proximal Emotional Environment Project (PEEP)
+# The *P*roximal *E*motional *E*nvironment *P*roject (PEEP)
 
 ## Guess the emotion
-- <audio controls><source src="https://nyu.databrary.org/slot/12213/0,15046/asset/46757/download?inline=true" type="audio/mpeg">Your browser does not support the audio element.</audio>
-- <audio controls><source src="https://nyu.databrary.org/slot/12212/0,15046/asset/46748/download?inline=true" type="audio/mpeg">Your browser does not support the audio element.</audio>
+
+<!-- - <audio controls><source src="https://nyu.databrary.org/slot/12213/0,15046/asset/46757/download?inline=true" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+<!-- - <audio controls><source src="https://nyu.databrary.org/slot/12212/0,15046/asset/46748/download?inline=true" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+
+|  Sample 1   | Sample 2 |
+|-----|-----|
+| <audio controls><source src="https://nyu.databrary.org/slot/12213/0,15046/asset/46757/download?inline=true" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://nyu.databrary.org/slot/12212/0,15046/asset/46748/download?inline=true" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
 ## Questions
 
@@ -658,7 +663,7 @@ Your browser does not support the video tag.
 <img src="https://github.com/gilmore-lab/peep-II-ratings-analysis/blob/master/analysis-summary-plots_files/figure-markdown_github/time-series-fam-1-1.png?raw=true" height=500px>
 </div>
 
-# Synthesizing common themes
+# What's in common?
 
 ## Themes
 
@@ -666,39 +671,59 @@ Your browser does not support the video tag.
 - Perception, action, cognition & emotion inextricably linked
 - Need better/denser measures
     - of environment
-    - of behavior/physiology
+    - of behavior
+    - of physiology
 
-## Themes
+## ~~Turtles~~ networks all the way down...
 
-- Power of 
-    - convergent evidence
-    - data visualization
-    - data, materials sharing
+<div class="centered">
+<img src="https://transmediale.de/sites/default/files/public/styles/6col/public/node/festival/field_festival_image/46438/turtles.jpg?itok=DXQN26ri" height=500px>
+</div>
+
+---
+
+<div class="centered">
+<img src="http://vidi.cs.ucdavis.edu/projects/AggressionNetworks/images/RaceGraph.png" height=500px>
+</div>
+
+## Power of 
+
+- convergent evidence
+- data visualization
+- data, materials sharing
 - to accelerate discovery...
 
-# Dreaming about the future
 
-## Things I can do now
+## Limitations of
 
-- Keep reproducible, open, version-controlled records of my workflow
-- Embed figures from published papers in talks or presentations
-- Link to published papers
+- scientific culture
+- technology
+- sampling diversity, sample sizes/power, publication bias, etc.
+- big team science vs. small team science
 
-## Things I can do now
+# Toward an open, transparent, robust, and integrative developmental science
 
-- Share my work
-    - Data & materials on Databrary
-    - Code & de-identified data on [GitHub](http://github.com/gilmore-lab/)
-    - Talks & lectures on [GitHub](http://github.com/gilmore-lab/)
-    - Preprints on PsyArXiv/OSF
+<!-- ## Things I can do now -->
 
-## Things I'd like to be able to do
+<!-- - Keep reproducible, open, version-controlled records of my workflow -->
+<!-- - Embed figures from published papers in talks or presentations -->
+<!-- - Link to published papers -->
 
-- Eliminate technical, cultural, policy barriers to more open scientific practices
-- Link to data in published papers for new visualization & analysis
-- See everyone's procedures, displays, analyses for myself
-- Search for data by task, participant characteristics & download for visualization & analysis
-- Understand how all the pieces fit together...
+<!-- ## Things I can do now -->
+
+<!-- - Share my work -->
+<!--     - Data & materials on Databrary -->
+<!--     - Code & de-identified data on [GitHub](http://github.com/gilmore-lab/) -->
+<!--     - Talks & lectures on [GitHub](http://github.com/gilmore-lab/) -->
+<!--     - Preprints on PsyArXiv/OSF -->
+
+<!-- ## Things I'd like to be able to do -->
+
+<!-- - Eliminate technical, cultural, policy barriers to more open scientific practices -->
+<!-- - Link to data in published papers for new visualization & analysis -->
+<!-- - See everyone's procedures, displays, analyses for myself -->
+<!-- - Search for data by task, participant characteristics & download for visualization & analysis -->
+<!-- - Understand how all the pieces fit together... -->
 
 ---
 
@@ -722,7 +747,7 @@ Now we should be envious of physicists' big toys like the Hubble Space telescope
 The Hubble allows us to look back into the history of our universe, some ~13 billion years ago.
 </div>
 
-## What would a data observatory for human behavior look like?
+## What would a data observatory for human development look like?
 
 <div class="notes">
 What would a similar observational instrument for peering deep into human behavior look like? I think that we have some idea already.
@@ -811,6 +836,70 @@ Your browser does not support the video tag.
 <img src="http://www.sowoll.com/images/5(3).jpg" height=475px>
 </div>
 
+<!-- ## Behavioral and brain systems embedded in networks -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="http://3.bp.blogspot.com/-3e_SbLI1Kbc/UkH085O8q5I/AAAAAAAACw4/lAZ_AJdzGss/s1600/bronfenbrenner.jpeg" height=500px> -->
+<!-- </div> -->
+
+<!-- --- -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="https://www.researchgate.net/profile/Carlo_Miniussi/publication/269877702/figure/fig2/AS:269128527249411@1441176649721/Hierarchical-modular-organisation-of-the-human-connectome-a-Hubs-regions-with-a.png" height=500px> -->
+<!-- </div> -->
+
+## Humans are diverse
+
+- But much (lab-based) data collected are from **W**estern, **E**ducated **I**ndustrialized, **R**ich, **D**emocratic (WEIRD) populations [Henrich et al., 2010](http://doi.org/10.1017/S0140525X0999152X)
+
+---
+
+<div class="centered">
+<img src="http://www.evoanth.net/wp-content/uploads/2014/12/psychologyweird.png" height=500px>
+</br>
+<small><http://www.evoanth.net/2015/01/06/evolutionary-psychology-has-problems-and-it-isnt-getting-better/></small>
+</div>
+
+---
+
+<div class="centered">
+<a href="http://doi.org/10.1038/s41467-017-00908-7">
+<img src="img/lewinn-2017.jpg" height=500px>
+</a>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://media.springernature.com/lw900/springer-static/image/art%3A10.1038%2Fs41467-017-00908-7/MediaObjects/41467_2017_908_Fig1_HTML.jpg" height=500px>
+
+[[@LeWinn2017-lx]](http://doi.org/10.1038/s41467-017-00908-7)
+</div>
+
+## Data sensitive, hard(er) to share
+
+- Protect participant's identities
+- Protect from harm/embarrassment
+- Anonymize (effective?) or get permission (many don't ask, plan to share)
+
+---
+
+<div class="centered">
+<img src="https://i.pinimg.com/originals/9b/f4/e5/9bf4e5a1d584bc6065c3e3231f9b3220.gif" height=550px>
+</div>
+
+---
+
+> *"...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s."*
+
+[Walter Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)
+
+---
+
+> *"Reviewers and editors want novel, interesting results. Why would I waste my time doing careful direct replications?"*
+
+Any number of researchers I've talked with
+
 ---
 
 <div class="centered">
@@ -841,20 +930,58 @@ And it often seems like we are the proverbial blind men examining the elephant.
 We're often like like Gollum, obsessed with possessing our "precious" methods or results.
 </div>
 
-## Metadata as "mortar"
+---
 
 <div class="centered">
-<img src="img/bricks-mortar.png" height=550px>
+<a href="http://www.nature.com/articles/s41562-016-0021/figures/1">
+<img src="http://www.nature.com/article-assets/npg/nathumbehav/2017/s41562-016-0021/images_hires/w926/s41562-016-0021-f1.jpg" height=500px>
+</a>
+</br>
+<small>
+([Munafo et al., 2017](http://doi.org/10.1038/s41562-016-0021))
+</small>
 </div>
 
 <div class="notes">
-And on a more mundane level, we could choose and adopt common metadata items and formats that would allow us to link findings across studies. But we haven't yet.
+This recent manifesto from Nature Human Behavior describes the risks to reproducible science at every step of the process.
+I urge you to read it.
 </div>
+
+---
+
+<div class="centered">
+<img src="https://previews.123rf.com/images/keng88/keng881302/keng88130200003/17772526-pile-of-collapsed-red-bricks-wall-Stock-Photo.jpg" height=550px>
+</div>
+
+<div class="notes">
+If each data point is a brick, a cumulative science of behavior would take each one and turn it into...
+</div>
+
+---
+
+<div class="centered">
+<img src="https://i.pinimg.com/736x/43/41/c0/4341c08aa295923d8a679a12797bd6da--brick-architecture-amazing-architecture.jpg" height=550px>
+</div>
+
+<div class="notes">
+beautiful, intricate structures of knowledge.
+So how do we build a cumulative science?
+</div>
+
+<!-- ## Metadata as "mortar" -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="img/bricks-mortar.png" height=550px> -->
+<!-- </div> -->
+
+<!-- <div class="notes"> -->
+<!-- And on a more mundane level, we could choose and adopt common metadata items and formats that would allow us to link findings across studies. But we haven't yet. -->
+<!-- </div> -->
 
 ## Let's build a Databservatory for human behavior
 
 <div class="centered">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=500px>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=450px>
 </div>
 
 ## It should...
@@ -870,17 +997,12 @@ And on a more mundane level, we could choose and adopt common metadata items and
 - Provide consistent framework for ethical data sharing
 - Enable data aggregation, cloning, provenance tracking
 - Support self/active curation
-- Link to publications
-- ...
+- Link to publications &...
 
----
+## Let us embrace [the whole elephant](http://gilmore-lab.github.io/2017-10-18-the-whole-elephant)
 
 <div class="centered">
 <img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
-
-@rogilmore</br>
-[gilmore-lab.github.io/sips-2017-databservatory](http://gilmore-lab.github.io/sips-2017-databservatory)
-</div>
 
 ## Stack
 
