@@ -3,6 +3,7 @@ title: "2017-10-18-the-whole-elephant"
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
 bibliography: bibliography.bib
+csl: apa.csl
 css: gilmore.css
 output: 
   ioslides_presentation:
@@ -17,10 +18,6 @@ output:
 </br>
 <img src="https://sloan.org/storage/app/media/Logos/Sloan-Logo-stacked-black-web.png" height-250px>
 <img src="http://sagebase.org/wp-content/uploads/2016/03/sponsor_NIHmentalhealth.jpg" height=250px>
-</div>
-
-<div class="notes">
-I thank NSF, NICHD, SRCD, and the Sloan Foundation for support.
 </div>
 
 ## Talk overview
@@ -113,7 +110,7 @@ These parse the space of different types of optic flow. You can think of them as
 
 ## How Does Optic Flow Sensitivity Develop?
 
-- 4-6 mo-old infants: Larger brain responses to **faster** speeds, [[@hou_spatio-temporal_2009]](http://doi.org/10.1016/j.visres.2009.08.007)
+- 4-6 mo-old infants: Larger brain responses to **faster** speeds/larger displacements, [[@hou_spatio-temporal_2009]](http://doi.org/10.1016/j.visres.2009.08.007)
 
 ---
 
@@ -133,17 +130,17 @@ These parse the space of different types of optic flow. You can think of them as
 
 ## What about older children?
 
-- Time-varying optic flow patterns
-- Steady-state visual evoked potentials (SSVEPs)
+- Present: Time-varying optic flow patterns
+- Measure: Steady-state visual evoked potentials (SSVEPs)
     + Event-related electro-encephalograms (EEGs)
     + Phase-locked responses at low-order harmonics
-- n=29 4-8 year-olds
+- $n=29$ 4-8 year-olds
 - [[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 
 ## 2 deg/s translation {.smaller}
 
 <div class="centered">
-<video width="750" height="450" controls>
+<video width="750" height="450" controls autoplay loop>
   <source src="https://nyu.databrary.org/slot/9825/-/asset/11635/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -154,7 +151,7 @@ These parse the space of different types of optic flow. You can think of them as
 ## 4 deg/s rotation {.smaller}
 
 <div class="centered">
-<video width="750" height="450" controls>
+<video width="750" height="450" controls autoplay loop>
   <source src="https://nyu.databrary.org/slot/9825/-/asset/11649/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -165,7 +162,7 @@ These parse the space of different types of optic flow. You can think of them as
 ## 8 deg/s radial {.smaller}
 
 <div class="centered">
-<video width="750" height="450" controls>
+<video width="750" height="450" controls autoplay loop>
   <source src="https://nyu.databrary.org/slot/9825/-/asset/11645/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -186,7 +183,7 @@ These parse the space of different types of optic flow. You can think of them as
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px">
 
-[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)</div>
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
 ## [Complex Domain Plot of 1F1 Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png) {.smaller}
@@ -194,7 +191,7 @@ These parse the space of different types of optic flow. You can think of them as
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png" height="450px">
 
-[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)</div>
+[[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
 ## [3F1 Channel-Wise Results](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/channel-wise-effects-1.png) {.smaller}
@@ -223,11 +220,12 @@ These parse the space of different types of optic flow. You can think of them as
 
 ## Results Summary
 
-- Anatomical separation of responses
+- Anatomical & frequency separation of responses
     + vs. pattern (lateral, 1F1)
     + speed (medial, 3F1)
-- Radial & rotation != translation
+- Radial & rotation $\neq$ translation
 - Speed tuning (slow < med & fast)
+- Similar to, but different from adults
 
 ## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png) {.smaller}
 
@@ -261,7 +259,7 @@ These parse the space of different types of optic flow. You can think of them as
 [[@gilmore_childrens_2016]](http://doi.org/10.1371/journal.pone.0157911)
 </div>
 
-## Behavioral responses
+## What about behavior?
 
 - Time-varying optic flow
     + Radial, linear
@@ -354,17 +352,15 @@ These parse the space of different types of optic flow. You can think of them as
 
 Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing in infants and adults. Databrary. Retrieved February 18, 2017 from <http://doi.org/10.17910/B7.123>
 
-## Mothers {.smaller}
+## Synchronized infant and mother cams {.smaller}
 
 <div class="centered">
-<video width="640" height="480" controls>
-  <source src="https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true" type="video/mp4">
+<video width="640" height="480" controls autoplay>
+  <source src="https://nyu.databrary.org/slot/8238/0,796163/asset/19169/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<https://nyu.databrary.org/slot/8239/-/asset/19181/download?inline=true>
+<https://nyu.databrary.org/volume/123/slot/8238/->
 <div>
-
--->
 
 ---
 
@@ -412,6 +408,13 @@ Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing 
 <img src="http://fabien.benetou.fr/pub/illustrations/KittenCarousel.png" height=500px>
 
 </div>
+
+## Replication
+
+- Do the findings hold in larger samples
+- When geometry of environment varies
+- Outside the lab
+- Across age
 
 ## Experienced flow across cultures {.smaller}
 
@@ -486,9 +489,93 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 - Fast speeds, broad speed distributions
 - Linear flow >> radial or rotational flow
 
+## Simulating developmental change {.flexbox .vcenter .smaller}
+
+<div class="centered">
+<small>
+$\begin{pmatrix}\dot{x} \\ \dot{y}\end{pmatrix}=\frac{1}{z}
+\begin{pmatrix}-f & 0 & x\\ 0 & -f  & y \end{pmatrix}
+\begin{pmatrix}{v_x{}}\\ {v_y{}} \\{v_z{}}\end{pmatrix}+
+\frac{1}{f}
+\begin{pmatrix}
+xy & -(f^2+x^2) & fy\\ 
+f^2+y^2 & -xy & -fy
+\end{pmatrix}
+\begin{pmatrix}
+\omega_{x}\\ 
+\omega_{y}\\ 
+\omega_{z}
+\end{pmatrix}$
+</small>
+
+**Geometry of environment/observer**: $(x, y, z)$</br>
+**Translational speed**: $(v_x, v_y, v_z)$</br>
+**Rotational speed**: $(\omega_{x}, \omega_{y}, \omega{z})$</br>
+**Retinal flow**: $(\dot{x}, \dot{y})$
+</div>
+
+## Parameters For Simulation
+
+| Parameter | Crawling Infant | Walking Infant |
+|-----------|-----------------|----------------|
+| Eye height| 0.30 m          | 0.60 m         |
+| Locomotor speed | 0.33 m/s  | 0.61 m/s       |
+| Head tilt | 20 deg          | 9 deg          |
+
+<div class="centered">
+</br>
+<img src="https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/kretch-etal.png" width=600px/>
+</br>
+<small>
+([Kretch et al., 2014](http://dx.doi.org/10.1111/cdev.12206))
+</small>
+</div>
+
+---
+
+| Geometric Feature        | Distance |
+|--------------------------|----------|
+| Side wall                | +/- 2 m  |
+| Side wall height         | 2.5 m    |
+| Distance of ground plane | 32 m     |
+| Field of view width      | 60 deg   |
+| Field of view height     | 45 deg   |
+
+## Simulating Flow Fields {.flexbox .vcenter .smaller}
+
+<div class="centered">
+<img src='https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/simulation-flow-patterns.png' width=800px/>
+</br>
+<small>
+([Gilmore et al, 2015](http://doi.org/10.1109/DEVLRN.2015.7345450))
+</small>
+</div>
+
+---
+
+<div class="centered">
+<img src='https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/simulation-flow-direction-hist.png' width=800px/>
+</br>
+<small>
+([Gilmore et al, 2015](http://doi.org/10.1109/DEVLRN.2015.7345450))
+</small>
+</div>
+
+## Simulated Flow Speeds (m/s) {.flexbox .vcenter}
+
+<div class="centered">
+| Type of Locomotion | Ground Plane | Room | Side Wall | Two Walls |
+|--------------------|--------------|------|-----------|-----------|
+| Crawling           | 14.41        | 14.42| 14.43     |14.62      |
+| Walking            | 9.38         | 8.56 | 7.39      |9.18       |
+
+</div>
+
 ## Summing up
 
 - Infants commonly experience fast, linear optic flows
+    + Head/eye instability
+    + Proximity to ground
 - Brain and behavioral responses to optic flow develop throughout childhood
     + Still immature in 5-8 year-olds
 - Statistics of natural experience informative
@@ -499,7 +586,7 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 - Brain responses to flow 'in the wild'
 - Comparing brain responses to behavioral sensitivity
 - Simulating the effects of development on visual experience
-- Automating pipelines for automated analysis of 1st person videos
+- Automating pipelines for automated analysis of 1st person videos (using PSU's Galaxy environment)
 
 # An hour in the life...
 
@@ -511,7 +598,7 @@ Jayaraman, S., Smith, L.B., Raudies, F. & Gilmore, R.O. (2014). Natural Scene St
 ---
 
 <div class="centered">
-<video width="750" height="500" controls>
+<video width="750" height="500" controls autoplay>
   <source src="https://nyu.databrary.org/slot/11652/307774,376273/asset/47075/download?inline=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -520,7 +607,7 @@ Your browser does not support the video tag.
 ---
 
 <div class="centered">
-<video width="750" height="500" controls>
+<video width="750" height="500" controls autoplay>
   <source src="https://nyu.databrary.org/slot/14167/381504,4603862/asset/59930/download?inline=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -528,17 +615,20 @@ Your browser does not support the video tag.
 
 ## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
-- n=900 infant/mother dyads; 300 @ 12-, 18-, 24-months
+- $n=900$ infant/mother dyads; 300 @ 12-, 18-, 24-months
 - 30 dyads from 30 sites across the US
-- 1 hr natural activity + 3 min solitary toy play + 2 min dyadic toy play + video tour of home
+- 1 hr natural activity 
+    - 3 min solitary toy play 
+    - 2 min dyadic toy play
+    - video tour of home
 
 ## *P*lay & *L*earning *A*cross a *Year* (PLAY) project
 
 - Videos coded for
-    - Emotional expression
-    - Object interaction
-    - Physical activity & locomotion
-    - Language
+    - [Emotional expression](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/emotion)
+    - [Object interaction](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual3)
+    - Physical activity & [locomotion](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual4)
+    - [Transcript](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/transcription), [Communication](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual2), and [Gesture](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/gesture)
 - Enhancements to [Datavyu](http://datavyu.org) for transcription, CHAT compatibility, Windows support
 
 ---
@@ -614,6 +704,8 @@ Your browser does not support the video tag.
 <a href="http://doi.org/10.1038/s41562-017-0128">
 <img src="https://github.com/gilmore-lab/sips-2017-video-reproducibility/blob/master/img/gilmore-adolph-nat-hum-beh.jpg?raw=true" height=500px>
 </a>
+
+[[@Gilmore2017-eh]](http://doi.org/10.1038/s41562-017-0128)
 </div>
 
 ---
