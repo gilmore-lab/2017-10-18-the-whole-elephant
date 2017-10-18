@@ -4,11 +4,17 @@ author: "Rick Gilmore"
 date: "`r Sys.time()`"
 bibliography: bibliography.bib
 csl: apa.csl
-css: gilmore.css
+css: ioslides.css
 output: 
   ioslides_presentation:
     widescreen: true
 ---
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg" height=550px>
+</div>
 
 ## Support
 
