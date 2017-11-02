@@ -146,7 +146,7 @@ These parse the space of different types of optic flow. You can think of them as
 ## 2 deg/s translation {.smaller}
 
 <div class="centered">
-<video width="750" height="450" controls autoplay loop>
+<video width="750" height="450" controls loop>
   <source src="https://nyu.databrary.org/slot/9825/-/asset/11635/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -157,7 +157,7 @@ These parse the space of different types of optic flow. You can think of them as
 ## 4 deg/s rotation {.smaller}
 
 <div class="centered">
-<video width="750" height="450" controls autoplay loop>
+<video width="750" height="450" controls  loop>
   <source src="https://nyu.databrary.org/slot/9825/-/asset/11649/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -168,7 +168,7 @@ These parse the space of different types of optic flow. You can think of them as
 ## 8 deg/s radial {.smaller}
 
 <div class="centered">
-<video width="750" height="450" controls autoplay loop>
+<video width="750" height="450" controls  loop>
   <source src="https://nyu.databrary.org/slot/9825/-/asset/11645/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -361,7 +361,7 @@ Adolph, K. (2015). Active vision in passive locomotion: real-world free viewing 
 ## Synchronized infant and mother cams {.smaller}
 
 <div class="centered">
-<video width="640" height="480" controls autoplay>
+<video width="640" height="480" controls >
   <source src="https://nyu.databrary.org/slot/8238/0,796163/asset/19169/download?inline=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -604,7 +604,7 @@ f^2+y^2 & -xy & -fy
 ---
 
 <div class="centered">
-<video width="750" height="500" controls autoplay>
+<video width="750" height="500" controls >
   <source src="https://nyu.databrary.org/slot/11652/307774,376273/asset/47075/download?inline=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -613,7 +613,7 @@ Your browser does not support the video tag.
 ---
 
 <div class="centered">
-<video width="750" height="500" controls autoplay>
+<video width="750" height="500" controls >
   <source src="https://nyu.databrary.org/slot/14167/381504,4603862/asset/59930/download?inline=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
